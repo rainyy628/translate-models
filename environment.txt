@@ -1,3 +1,6 @@
 torch
 numpy
 transformers
+sklearn
+boto3
+pandas
