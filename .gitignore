@@ -1,2 +1,9 @@
 Ethan-yt/
 __pycache__/
+cut_model
+jiayan.klm
+pos_model
+punc_model
+scatter*
+pytorch_pretrained/__pycache__/
+*.bin
