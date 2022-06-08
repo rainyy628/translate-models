@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import re
 import numpy as np
-from pytorch_pretrained import BertTokenizer,BertModel
 from transformers import AutoTokenizer, AutoModel
 
 class Config(object):
