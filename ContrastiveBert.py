@@ -9,13 +9,13 @@ class Config(object):
     def __init__(self,dataset):
         self.model_name='ContrastiveBert_guwen_6sentences'
         #训练集
-        self.train_path=dataset+'/data/data_con/train_6sentences.csv'
+        self.train_path=dataset+'data/data_con/train_6sentences.csv'
         #测试集
-        self.test_path=dataset+'/data/data_con/test_6sentences.csv'
+        self.test_path=dataset+'data/data_con/test_6sentences.csv'
         #校验集
-        self.dev_path=dataset+'/data/data_con/dev_6sentences.csv'
+        self.dev_path=dataset+'data/data_con/dev_6sentences.csv'
         #模型训练存储
-        self.save_path=dataset+'/saved_dict_contrastive/'+self.model_name+'trainaug_no_w_add_tags2'+'.ckpt'
+        self.save_path=dataset+'saved_dict_contrastive/'+self.model_name+'trainaug_no_w_add_tags2'+'.ckpt'
         #设备配置
         self.device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         #超过1000batch还没有提升，提前结束

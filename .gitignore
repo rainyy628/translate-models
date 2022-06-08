@@ -7,3 +7,4 @@ punc_model
 scatter*
 pytorch_pretrained/__pycache__/
 *.bin
+saved_dict_contrastive/*.*

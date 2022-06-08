@@ -9,7 +9,7 @@ import contrastive_utils
 
 print("here")
 if __name__=='__main__':
-    dataset='/root/code/yaoyao/mb'#数据集的地址
+    dataset='./'#数据集的地址
     #加载模型
     config = myModel.Config(dataset)
 
